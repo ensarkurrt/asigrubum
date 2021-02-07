@@ -272,6 +272,8 @@ h6 {
   padding: 45px 50px;
   background-color: #fff;
   display: inline-block;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 .wrapper .poll-style-three-text h2 {
   color: #0f0f0f;
@@ -401,7 +403,7 @@ h6 {
   }
 
   .wrapper .poll-style-three-text {
-    width: 100%;
+    /* width: 100%; */
   }
 
   .wrapper .poll-style-three-text .poll-item-selector .poll-btn-pair button:nth-child(1) {
